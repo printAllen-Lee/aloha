@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(18,17,37);
+background: linear-gradient(90deg, rgba(18,17,37,1) 0%, rgba(139,43,231,1) 0%,   rgba(91,52,129,1) 49%, rgba(227,225,88,1) 100%);
+    margin: 0 ;
+    padding: 0;
+    
+}
+
+img{
+    border-radius: 20px;
+}
+
+.container{
+width: 97vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.pass{
+    width: 5rem;
+    height: 1rem;
+    border-radius: 50px;
+    border:none;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.com{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 50px;
+    border:none;
+    margin-left: 10px;
+    padding: 5px;
+
+}
+.com:hover{
+    color: gold;
+    background-color: blueviolet;
+}
